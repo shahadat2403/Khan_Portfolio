@@ -5,6 +5,10 @@ body{
 }
 h1{
     font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
 }
 .blue-color{
     color: blueviolet;
@@ -46,13 +50,40 @@ p{
 .second_half img{
     width: 70%;}
 
-    .second_part{
+.second_part{
         background-image: url(Image/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
     }
-    .flaxible{display: flex;}
-    .half-width{
-        width: 50%;
-        padding: 5%;
+.flaxible{
+    display: flex;
+}
+   
+.half-width{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 12px;
+        padding: 3%
     }
+.experienc-area{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+#fswd_01{
+    border-left: 10px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-radius: 12px;
+    border-image-slice: 1;
+}
+#fswd_02{
+    border-left: 10px solid;
+    border-image: linear-gradient(#4b82f0, #4d9f0c) 30;
+    border-radius: 12px;
+    border-image-slice: 1;}
+.third_part{
+    padding: 20px;
+}
