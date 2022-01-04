@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 h1{
@@ -8,20 +9,20 @@ h1{
 .blue-color{
     color: blueviolet;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
 p{
     font-size: 20px;
     text-align: justify;
+}
+.first_part{
+    display: flex;
+    margin-bottom: 100px;
 }
 .first-half{
     width: 50%;
     padding: 5%;
 }
 .first-half img{
-    width: 70%;
+    width: 80%;
 }
 .link-button {
     font-size: 20px;
@@ -30,19 +31,28 @@ p{
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
 }
-.top-banner{
+.first_part{
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 }
-.second-part{
+.second_part{
+    display: flex;
+    margin-bottom: 100px;
+ }
+.second_half{
     width: 50%;
     padding: 5%;
 }
-.second-part img{
-    width: 130%;}
+.second_half img{
+    width: 70%;}
 
-    .Dream-Big{
+    .second_part{
         background-image: url(Image/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    .flaxible{display: flex;}
+    .half-width{
+        width: 50%;
+        padding: 5%;
     }
